@@ -1,7 +1,7 @@
 var { graphql, buildSchema } = require('graphql');
 
 // Construct a schema, using GraphQL schema language
-
+// test
 var schema = buildSchema(`
   type Query {
     hello: String
